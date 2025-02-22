@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .Navbar {
+            ul li{
+                list-style: none;
+            }
+            ul li a:hover{
+                background-color: darkcyan;
+                color: #333;
+                cursor: grab;
+            }
+            ul li a:active{
+                background-color: violet;
+                cursor: grabbing;
+            }
+            ul{
+                display: inline;
+                justify-content: space-around;
+                align-items: center;
+                padding: 10px;
+                font-family: Arial, sans-serif;
+                background-color: rgb(198, 195, 195);
+            }  
+        }
+    </style>
+</head>
+<body>
+    <div class="Navbar">
+        <ul>
+            <li>
+                <a href="#" style="color: red;">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#" style="color: goldenrod;">Portfolio</a>
+            </li>
+            <li>
+                <a href="#" style="color: crimson;">Contact</a>
+            </li>
+            <li>
+                <a href="#" style="color: whitesmoke;">Services</a>
+            </li>
+        </ul>
+    </div>    
+</body>
+</html>

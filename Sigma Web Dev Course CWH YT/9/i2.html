@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSMediaQuery</title>
+    <style>
+        body {
+            background-color: black;
+            color: whitesmoke
+        }
+        @media only screen && (maxwidth:355px){
+            body {
+                background-color: darkorange;
+            }
+            .boxes{
+                flex-direction: column;
+                width: 344px;
+                height: 344px;
+                background-color: steelblue;
+                margin: 3px;
+                padding: 3px;
+        }
+        
+    </style>
+</head>
+<body>
+    Hey, I am a Black Body
+    <div class="boxes">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+alert("Caution: This is a warning message!");

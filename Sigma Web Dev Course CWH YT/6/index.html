@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        .red{
+            background-color: blue;
+            color: whitesmoke;
+        }
+        #green{
+            background-color: orange;
+            color: white;
+        }
+        div p{
+            color: grey;
+        }
+        div > p{
+            color: blue;
+        }
+        *{
+            margin: 0px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="green">
+        Hey, I am a div!
+        <article>
+            <p>Wait a min, Who are you?</p>
+        </article>
+        <p>
+            I am a ParaSF inside div.
+        </p>
+    </div>
+    <div class="red">
+        And I am a Chapri div!
+    </div>
+</body>
+</html>
